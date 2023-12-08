@@ -19,7 +19,7 @@ VERBOSE := $(if $(VERBOSE), $(VERBOSE),)
 
 # Flags for various tools
 ESPTOOL_FLAGS=--port /dev/tty.usbserial-*
-RSYNC_FLAGS=-avlcC --progress --delete-before
+RSYNC_FLAGS=-avlcC --progress
 
 # information for downloads
 CIRCUIT_PYTHON_BOARD=adafruit_feather_huzzah32
