@@ -1,2 +1,3 @@
 adafruit-circuitpython-neopixel==6.3.10
 circuitpython-stubs==8.2.9
+pylint==3.0.2
