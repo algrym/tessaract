@@ -54,7 +54,7 @@ install-rsync: version.py code.py boot.py downloads
 	rsync $(RSYNC_FLAGS) version.py code.py boot.py $(CIRCUIT_PYTHON_DIR)
 	rsync $(RSYNC_FLAGS) \
 		downloads/adafruit-circuitpython-bundle-$(CIRCUIT_PYTHON_LIB_VER)-mpy-$(CIRCUIT_PYTHON_LIB_DATE)/lib/neopixel* \
-		downloads/adafruit-circuitpython-bundle-$(CIRCUIT_PYTHON_LIB_VER)-mpy-$(CIRCUIT_PYTHON_LIB_DATE)/lib/*adafruit_fancyled* \
+		downloads/adafruit-circuitpython-bundle-$(CIRCUIT_PYTHON_LIB_VER)-mpy-$(CIRCUIT_PYTHON_LIB_DATE)/lib/adafruit_lis3dh* \
 			$(CIRCUIT_PYTHON_LIB_DIR)
 
 install-wipe-huzzah32:
