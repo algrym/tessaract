@@ -1,6 +1,6 @@
-# tessaract
+# tesseract
 
-Use an Adafruit Circuit Playground to make a "tessaract" prop
+Use an Adafruit Circuit Playground to make a "tesseract" prop
 
 Docs: https://learn.adafruit.com/adafruit-circuit-playground-bluefruit
 
